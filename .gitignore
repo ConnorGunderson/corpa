@@ -1,0 +1,11 @@
+*/**/node_modules/
+
+*/build/
+
+*.log
+
+# prisma
+*/**/migrations/
+*.db
+*.env
+*.env.local

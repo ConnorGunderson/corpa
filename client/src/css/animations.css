@@ -1,0 +1,44 @@
+.slider {
+  animation: tickerboxslide 120s linear infinite;
+  border: 1px solid red;
+}
+
+.fade-in-s {
+  animation: fadeins 1s ease-in;
+}
+.fade-in-f {
+  animation: fadeinf 1s ease-in;
+}
+
+@keyframes tickerboxslide {
+  from {
+    transform: translateX(-20%);
+  }
+  to {
+    transform: translateX(120%);
+  }
+}
+
+@keyframes fadeins {
+  from {
+    opacity: 0%;
+    background-color: #7bff6a;
+  }
+
+  to {
+    opacity: 100%;
+    background-color: inherit;
+  }
+}
+
+@keyframes fadeinf {
+  from {
+    opacity: 0%;
+    background-color: #ff6e6e;
+  }
+
+  to {
+    opacity: 100%;
+    background-color: inherit;
+  }
+}

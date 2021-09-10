@@ -1,0 +1,10 @@
+mutation UpdateOneEmote(
+  $data: EmoteUpdateInput!
+  $name: String!
+) {
+  updateOneEmote(where: { name: $name }, data: $data) {
+    id
+    name
+    count
+  }
+}

@@ -1,0 +1,8 @@
+mutation IncrementOneEmote($name: String!, $gif: String!) {
+  incrementOneEmote(name: $name, gif: $gif) {
+    id
+    name
+    count
+    gif
+  }
+}

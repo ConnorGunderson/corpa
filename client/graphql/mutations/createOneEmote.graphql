@@ -1,0 +1,7 @@
+mutation createOneEmote($data: EmoteCreateInput!) {
+  createOneEmote(data: $data) {
+    id
+    name
+    count
+  }
+}
