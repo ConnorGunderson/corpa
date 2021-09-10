@@ -4,7 +4,7 @@
  */
 
 
-import type { Context } from "./api/context"
+import type { Context } from "./../api/context"
 
 
 declare global {

@@ -3,7 +3,7 @@
 */build/
 
 *.log
-
+*/**/dist/
 # prisma
 */**/migrations/
 *.db
