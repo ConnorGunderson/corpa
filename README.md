@@ -7,17 +7,13 @@
 _client_
 
 ```
-{
 npm run graphql
 npm run start
-}
 ```
 
 _server_
 
 ```
-{
 npm run generate
 npm run dev
-}
 ```
